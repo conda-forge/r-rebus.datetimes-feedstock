@@ -1,4 +1,4 @@
-{% set version = "0.0-1" %}
+{% set version = "0.0-2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rebus.datetimes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rebus.datetimes/rebus.datetimes_{{ version }}.tar.gz
-  sha256: a5c22ae363a499508f78970ef855ffa0fc2e54e8e876b0fa562354ee6b209b26
+  sha256: aec17d24978bebb9f88b96940fe5fa359f8342e8312d66679d317eb443ae05c3
 
 build:
   noarch: generic
   merge_build_host: true  # [win]
-  number: 1003
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
