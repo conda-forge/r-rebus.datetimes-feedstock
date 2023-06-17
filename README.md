@@ -1,11 +1,11 @@
-About r-rebus.datetimes
-=======================
+About r-rebus.datetimes-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rebus.datetimes-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=rebus.datetimes
 
 Package license: Unlimited
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rebus.datetimes-feedstock/blob/main/LICENSE.txt)
 
 Summary: Build regular expressions piece by piece using human readable code. This package contains date and time functionality, and is primarily intended to be used by package developers.
 
